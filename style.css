@@ -1,9 +1,31 @@
 
 @import url(https://fonts.googleapis.com/css?family=Sofia);
 
-body, h1, h2, h3, h4, p1, p2, iframe {
-    font-family: 'Fredoka', sans-serif;
+h1, h2, h3, h4, p1, p2, iframe {
+    font-family: 'Readex pro', sans-serif;
 }
-h2 {
+h1, h2, h3, h4 {
     font-weight: normal;
+color: #fd0
 }
+
+p1, p2 {
+    color: #ffffffff
+}
+label {
+    color:#fd0
+}
+
+a {
+    color: #fd0;
+  }
+
+
+body {
+    background-color: #1f1f1f;
+  }
+
+  a:hover {
+    opacity: 1;
+    color: #ffffffff;
+ }
