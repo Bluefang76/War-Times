@@ -10,14 +10,14 @@ color: #fd0
 }
 
 p1, p2 {
-    color: #ffffffff
+    color: #ffffffff;
 }
 label {
     color:#fd0
 }
 
 a {
-    color: #fd0;
+    color: #1f1f1f;
   }
 
 
@@ -25,9 +25,6 @@ body {
     background-color: #1f1f1f;
   }
 
-  .float-right {
-      float:right;
-  }
   a:hover {
     opacity: 1;
     color: #ffffffff;
@@ -103,14 +100,12 @@ body {
     margin: 0;
     padding: 0;
   }
-  li {
-    display: inline;
-    float: left;
+  
+  li, a{
+    display: block, inline;
+    padding: 8px;
+    opacity: 0.9; 
+    background-color: #fd0;
   }
   
-  a {
-    display: block;
-    padding: 8px;
-    background-color: #fd0 0.6;
-  }
   
