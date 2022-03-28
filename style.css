@@ -101,11 +101,15 @@ body {
     padding: 0;
   }
   
-  li, a{
-    display: block, inline;
-    padding: 8px;
+  .navigation { 
+    font-size: larger;
+    text-align: center;
+    display: inline-block;
+    padding: 0px;
     opacity: 0.9; 
     background-color: #fd0;
   }
   
-  
+  .pics {
+    float: right;
+  }
