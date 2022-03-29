@@ -9,7 +9,9 @@
 </head>
 <body>
   <nav>
-    <h3>Resources</h3>
+    <a href="index.html">
+      <button type="button" class="button">War-Times</button>
+</a>
     <iframe frameborder="0" width="100%" src="navigation.html"></iframe>
     
     </nav>
@@ -26,23 +28,26 @@
                   <a title="habernu with colors changed by Amousey, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Thank-new-yellow-black.svg"><img width="512" alt="Thank-new-yellow-black" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Thank-new-yellow-black.svg/512px-Thank-new-yellow-black.svg.png"></a>
                 </div>
                 <div class="column">
-                  <form action="/action_page.php">
-                    <label for="fname">First Name</label>
+                  <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+                  method="post">
+                  <input name="send-to" value="jgonsaslvessabola@brooklynsteamcenter.org" hidden>
+                    <label class="words" for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                    <label for="lname">Last Name</label>
+                    <label class="words" for="lname">Last Name</label>
                     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                    <label type="email">Email</label>
+                    <label class="words" type="email">Email</label>
                     <input type="text" id="email" name="email" placeholder="Your email..">
-                    <label for="country">Country</label>
+                    <label class="words" for="country">Country</label>
                     <select id="country" name="country">
                       <option value="australia">Australia</option>
                       <option value="canada">Canada</option>
                       <option value="usa">USA</option>
                     </select>
-                    <label for="subject">Subject</label>
+                    <label class="words" for="subject">Subject</label>
                     <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
                     <a href="thanks.html">
-                  <button type="button" class="btn btn-primary btn-lg">Submit</button>
+                      
+                  <button type="button" class="button">Submit</button>
                   </a>
                   </form>
                 </div>
